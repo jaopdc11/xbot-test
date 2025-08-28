@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 # ---------- Paths absolutos dos envs ----------
 base_dir = os.path.dirname(__file__)  # core/
-x_env_file = os.path.join(base_dir, "secrets", "x.env")
-spotipy_env_file = os.path.join(base_dir, "secrets", "spotipy.env")
+x_env_file = os.path.join(base_dir, "etc", "secrets", "x.env")
+spotipy_env_file = os.path.join(base_dir, "etc", "secrets", "spotipy.env")
 
 # ---------- X Client ----------
 class XClient:
