@@ -5,7 +5,7 @@ artista = 'Frank Ocean'
 
 def main():
     dias = dias_desde_ultimo_album(artista)
-    tweet = f'Já se passaram {dias} dias desde o último álbum de {artista}.'
+    tweet = f'Já se passaram {dias} dias desde o lançamento do último álbum de {artista}.'
     postar(tweet)
 
 if __name__ == '__main__':
