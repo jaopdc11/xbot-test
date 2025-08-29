@@ -4,10 +4,9 @@ import tweepy
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-# ---------- Paths absolutos dos envs ----------
-base_dir = os.path.dirname(__file__)  # core/
-x_env_file = os.path.join(base_dir, "etc", "secrets", "x.env")
-spotipy_env_file = os.path.join(base_dir, "etc", "secrets", "spotipy.env")
+# ---------- Paths absolutos dos envs (Secret Files do Render) ----------
+x_env_file = "/etc/secrets/x.env"
+spotipy_env_file = "/etc/secrets/spotipy.env"
 
 # ---------- X Client ----------
 class XClient:
